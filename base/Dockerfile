@@ -34,7 +34,7 @@ RUN \
     && apt-get install -y --no-install-recommends \
         bash=5.2.37-2+b5 \
         ca-certificates=20250419 \
-        curl=8.14.1-2 \
+        curl=8.14.1-2+deb13u2 \
         jq=1.7.1-6+deb13u1 \
         tzdata=2025b-4+deb13u1 \
         xz-utils=5.8.1-1 \
