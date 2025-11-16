@@ -5,5 +5,3 @@ build_from:
   armhf: arm32v5/debian:13.1-slim
   armv7: arm32v7/debian:13.1-slim
   i386: i386/debian:13.1-slim
-codenotary:
-  signer: codenotary@frenck.dev
