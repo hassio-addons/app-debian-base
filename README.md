@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Debian Base Images
+# Home Assistant Community App: Debian Base Images
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -18,23 +18,23 @@
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
 
-Docker Debian base images used by Home Assistant Community Add-ons.
+Docker Debian base images used by Home Assistant Community Apps.
 
 ## About
 
-These are the base images used by add-ons created by the
-Home Assistant Community Add-ons.
+These are the base images used by apps created by the
+Home Assistant Community Apps.
 
 While Home Assistant provides base images, the images provided by this
 repository contain some extras:
 
 - Based on Debian Trixie (slim)
 - Adds [s6] as a process supervisor.
-- Adds `jq` & `curl`, since every add-on uses them.
+- Adds `jq` & `curl`, since every app uses them.
 - Adds Docker [Label Schema][label-schema] support.
 - Includes a helper library: [Bashio][bashio]
 - Includes template helper: [tempio][tempio]
-- Handles logs, add-on startup banners and update notifications.
+- Handles logs, app startup banners and update notifications.
 - Several small adjustments and improvements.
 
 ## Changelog & Releases
@@ -56,7 +56,7 @@ Got questions?
 
 You have several options to get them answered:
 
-- The [Home Assistant Community Add-ons Discord chat server][discord] for add-on
+- The [Home Assistant Community Apps Discord chat server][discord] for app
   support and feature requests.
 - The [Home Assistant Discord Chat Server][discord-ha] for general Home
   Assistant discussions and questions.
@@ -82,18 +82,18 @@ The original setup of this repository is by [Franck Nijhof][frenck].
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
 
-## We have got some Home Assistant add-ons for you
+## We have got some Home Assistant apps for you
 
 Want some more functionality to your Home Assistant instance?
 
-We have created multiple add-ons for Home Assistant. For a full list, check out
+We have created multiple apps for Home Assistant. For a full list, check out
 our [GitHub Repository][repository].
 
 ## License
 
 MIT License
 
-Copyright (c) 2017-2025 Franck Nijhof
+Copyright (c) 2017-2026 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -116,29 +116,29 @@ SOFTWARE.
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [bashio]: https://github.com/hassio-addons/bashio
-[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-debian-base.svg
-[commits]: https://github.com/hassio-addons/addon-debian-base/commits/main
-[contributors]: https://github.com/hassio-addons/addon-debian-base/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/app-debian-base.svg
+[commits]: https://github.com/hassio-addons/app-debian-base/commits/main
+[contributors]: https://github.com/hassio-addons/app-debian-base/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
-[github-actions-shield]: https://github.com/hassio-addons/addon-debian-base/workflows/CI/badge.svg
-[github-actions]: https://github.com/hassio-addons/addon-debian-base/actions
+[github-actions-shield]: https://github.com/hassio-addons/app-debian-base/workflows/CI/badge.svg
+[github-actions]: https://github.com/hassio-addons/app-debian-base/actions
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[issue]: https://github.com/hassio-addons/addon-debian-base/issues
+[issue]: https://github.com/hassio-addons/app-debian-base/issues
 [label-schema]: http://label-schema.org/
-[license-shield]: https://img.shields.io/github/license/hassio-addons/addon-debian-base.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[license-shield]: https://img.shields.io/github/license/hassio-addons/app-debian-base.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-debian-base.svg
-[releases]: https://github.com/hassio-addons/addon-debian-base/releases
+[releases-shield]: https://img.shields.io/github/release/hassio-addons/app-debian-base.svg
+[releases]: https://github.com/hassio-addons/app-debian-base/releases
 [repository]: https://github.com/hassio-addons/repository
 [s6]: http://skarnet.org/software/s6/overview.html
 [semver]: http://semver.org/spec/v2.0.0.html
