@@ -36,7 +36,7 @@ RUN \
         ca-certificates=20250419+deb13u1 \
         curl=8.14.1-2+deb13u7 \
         jq=1.7.1-6+deb13u4 \
-        tzdata=2026e-0+deb13u1 \
+        tzdata=2026f-0+deb13u1 \
         xz-utils=5.8.1-1+deb13u2 \
     \
     && c_rehash \
